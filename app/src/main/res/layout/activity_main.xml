@@ -7,6 +7,152 @@
     android:background="@color/black"
     tools:context=".MainActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/menu_top"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="15dp">
 
+        <TextView
+            android:id="@+id/my_environmentalScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나의 환경 점수: 0"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/suit_bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <Button
+            android:id="@+id/timerStartButton"
+            android:layout_width="65dp"
+            android:layout_height="48dp"
+            android:background="@drawable/timer_button"
+            android:text="시작하기"
+            android:textSize="16sp"
+            android:fontFamily="@font/suit_bold"
+            app:layout_constraintStart_toEndOf="@id/my_environmentalScore"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginLeft="12sp"
+            android:padding="0dp"
+
+            />
+
+        <Button
+            android:id="@+id/noticeButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/notice1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="SpeakableTextPresentCheck"
+
+            />
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/settings"
+            app:layout_constraintEnd_toStartOf="@id/noticeButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="SpeakableTextPresentCheck"
+
+            />
+        <Button
+            android:id="@+id/writeButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/write_button"
+            app:layout_constraintEnd_toStartOf="@id/settingsButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="SpeakableTextPresentCheck"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/menu_top"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아아아"
+                android:textSize="80sp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아아아"
+                android:textSize="80sp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아아아"
+                android:textSize="80sp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아아아"
+                android:textSize="80sp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아아아"
+                android:textSize="80sp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아아아"
+                android:textSize="80sp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아아아"
+                android:textSize="80sp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아아아"
+                android:textSize="80sp"
+                android:textColor="@color/white"
+                /><TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아아아"
+            android:textSize="80sp"
+            android:textColor="@color/white"
+            />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
