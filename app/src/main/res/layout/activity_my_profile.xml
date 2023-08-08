@@ -10,7 +10,7 @@
         android:layout_height="60dp"
         android:background="#1E1E1E"
         android:gravity="start|center_vertical"
-        android:paddingStart="25dp"
+        android:paddingStart="20dp"
         android:text="나의 프로필"
         android:textColor="@color/white"
         android:textSize="20sp"
