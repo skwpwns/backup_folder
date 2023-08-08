@@ -26,7 +26,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="80dp"
         app:layout_constraintTop_toTopOf="parent"
-         />
+        />
 
     <TextView
         android:id="@+id/activityTextView"
@@ -68,7 +68,7 @@
         app:layout_constraintTop_toBottomOf="@id/profileButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="2dp" />
 
     <Button
         android:id="@+id/activityButton"
@@ -83,7 +83,7 @@
         app:layout_constraintTop_toBottomOf="@id/favoritesButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="2dp" />
 
     <Button
         android:id="@+id/reviewsButton"
@@ -98,7 +98,7 @@
         app:layout_constraintTop_toBottomOf="@id/activityButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="2dp" />
 
     <TextView
         android:id="@+id/settingsTextView"
