@@ -13,6 +13,27 @@
         android:theme="@style/Theme.PLOGGERS"
         tools:targetApi="31">
         <activity
+            android:name=".plogging_timer"
+            android:exported="false" />
+        <activity
+            android:name=".plogging_end"
+            android:exported="false" />
+        <activity
+            android:name=".my_profile"
+            android:exported="false" />
+        <activity
+            android:name=".my_information"
+            android:exported="false" />
+        <activity
+            android:name=".input_number"
+            android:exported="false" />
+        <activity
+            android:name=".input_kg"
+            android:exported="false" />
+        <activity
+            android:name=".create_post"
+            android:exported="false" />
+        <activity
             android:name=".setting"
             android:exported="false" />
         <!--
@@ -37,7 +58,7 @@
             android:exported="false" />
         <activity
             android:name=".start"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
